@@ -1,0 +1,215 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+body{
+	background-image: url('../images/about\ us\ background.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 20px;
+	overflow-x: hidden;
+	background-attachment: fixed;
+
+}
+
+header{
+	height: 10vh;
+}
+
+.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+
+}
+
+
+.row{
+		max-width: 1180px;
+		margin: 0 auto;
+}
+
+.main-nav{
+	float: right;
+	margin-top: 60px;
+	font-family: 'Akronim', cursive;
+	
+	
+
+}
+
+.main-nav li{
+
+	display: inline-block;
+	list-style: none;
+	margin-left: 40px;
+
+}
+
+.main-nav li a{
+
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 100%;
+	font-weight: 100px;
+
+}
+
+.main-nav li a:hover{
+	color: black;
+	cursor: pointer;
+	border: outset 5px white;
+	background-color: white;
+
+	
+
+}
+
+.main-content-header{
+	width: 1180px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+
+h1{
+	color: black;
+	font-size: 240%;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+body{
+
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background:url(../images/contact.jpeg)utgtlhjfkds;
+	background-size: cover;
+	font-family: "Georgian"
+}
+
+.contact-title{
+	margin-top: 100px;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+
+}
+.contact-title h1{
+	font-size: 40px;
+	color: black;
+	line-height: 10px;
+	transition: all 4s ease-in-out;
+
+	
+}
+.contact-title h2{
+	font-size: 25x;
+	line-height: 5px;
+	color: black;
+}
+
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+}
+
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: 2px solid white;
+	color: white;
+	font-size: 30px;
+	margin-bottom: 16px;
+	font-family: 'Akronim', cursive;
+
+
+}
+
+input{
+	height: 45px;
+
+}
+ form.submit{
+ 	background: #ff5722;
+ 	border-color: transparent;
+ 	color: purple;
+ 	font-size: 20px;
+ 	font-weight: bold;
+ 	letter-spacing: 2px;
+ 	height: 50px;
+ 	margin-top: 20px; 
+ 	cursor:pointer;
+}
+
+ 
+
+
+/*---------foooter----------*/
+
+
+footer{
+	width:100%;
+	background-color: black;
+	padding:2%;
+	height: 10%;
+}
+.fot{
+	float: left;
+	margin-top:5px;
+
+
+}
+p {
+  color: white;
+  font-family: 'Akronim', cursive;
+  }
+
+.fot li{
+	margin-top:1px;
+	display: inline-block;
+	list-style: none;
+	margin-left: 100px;
+
+}
+
+footer nav div ul li{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 100%;
+	font-weight: 100px;
+	font-family: 'Akronim', cursive;
+
+}
+.center{
+	text-align: center;
+}
+
+.facebook{
+	height: 40px;
+	width: auto;
+	text-align: center;
+	
+
+
+}
+
+.instagram{
+	height: 40px;
+	width: auto;
+	text-align: center;
+}
+
+

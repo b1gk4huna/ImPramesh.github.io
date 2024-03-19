@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    }
+    
+    body{
+        font-size: 20px;
+        overflow-x: hidden;
+         background-image: url('../images/printer-home.jpg');
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+    
+    
+    .active{
+        border: outset 5px white;
+	    background-color: white;
+    }
+    
+    .clearfix:after{
+        content: ".";
+        visibility: hidden;
+        display: block;
+        height: 0px;
+        clear: both;
+    
+    
+    
+    }
+    
+    
+    .row{
+            max-width: 1180px;
+            margin: 0 auto;
+    
+    }
+    
+    .main-nav{
+        float: right;
+        margin-top: 60px;
+    
+    
+    }
+    
+    .main-nav li{
+    
+        display: inline-block;
+        list-style: none;
+        margin-left: 40px;
+    
+    
+    }
+    
+    .main-nav li a{
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 100%;
+        font-weight: 100px;
+        font-family: 'Akronim', cursive;
+    
+    }
+    
+    .main-nav li a:hover{
+        color: black;
+        cursor: pointer;
+        border: outset 5px white;
+        background-color: white;
+        
+    
+    }
+    
+    .main-content-header{
+        width: 1180px;
+        /* position: absolute; */
+        top: 25%;
+        left: 65%;
+        transform: translate(-50%,-50%);
+        font-family: arial;
+    
+    }
+    .buy{
+        background-color: aqua;
+        position: absolute;
+        width: 5%;
+        top: 54%;
+        text-align: center;
+        left: 20%;
+        text-decoration: none;
+    }
+    .buy1{
+        background-color: aqua;
+        position: absolute;
+        width: 5%;
+        top: 54%;
+        text-align: center;
+        left: 49%;
+        text-decoration: none;
+    }
+    .buy2{
+        background-color: aqua;
+        position: absolute;
+        width: 5%;
+        top: 54%;
+        text-align: center;
+        left: 77%;
+        text-decoration: none;
+    }
+    .buy3{
+        background-color: aqua;
+        position: absolute;
+        width: 5%;
+        top: 98%;
+        text-align: center;
+        left: 20%;
+        text-decoration: none;
+    }
+    .buy4{
+        background-color: aqua;
+        position: absolute;
+        width: 5%;
+        top: 98%;
+        text-align: center;
+        left: 49%;
+        text-decoration: none;
+    }
+    .buy5{
+        background-color: aqua;
+        position: absolute;
+        width: 5%;
+        top: 98%;
+        text-align: center;
+        left: 77%;
+        text-decoration: none;
+    }
+    h1{
+        color: black;
+        font-size: 240%;
+        word-spacing: 10px;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-weight: lighter;
+        padding-bottom: 80px;
+    
+    }
+    
+    .home{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        font-family: "Georgian";
+        padding-right: 20%;
+        padding-bottom: 25%;
+    }
+    .logo img{
+        float: left;
+        width: 150px;
+        height: auto;
+    
+    }
+    .cv{
+        text-align:center; 
+        background-color: transparent;
+        margin-left: 30%;
+        width: 50%;
+        color:  black;
+        font-family: 'Akronim', cursive; 
+        border: 2px solid gray;
+        height: 125vh;
+        width: 40%;
+    
+    }
+    .listItems ul li{
+        list-style: none;
+        color: black;
+    }
+    
+    
+    
+    
+    /*---------foooter----------*/
+    
+    
+    footer{
+        width:100%;
+        background-color: black;
+        padding:2%;
+        height: 20%;
+    }
+    .fot{
+        float: left;
+        margin-top:5px;
+    
+    
+    }
+    p {
+      color: white;
+      font-family: 'Akronim', cursive;
+      }
+    
+    .fot li{
+        margin-top:1px;
+        display: inline-block;
+        list-style: none;
+        margin-left: 100px;
+    
+    }
+    
+    footer nav div ul li{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 100%;
+        font-weight: 100px;
+        font-family: 'Akronim', cursive;
+    
+    }
+    .center{
+        text-align: center;
+    }
+    
+    .facebook{
+        height: 40px;
+        width: auto;
+        text-align: center;
+        
+    
+    
+    }
+    
+    .instagram{
+        height: 40px;
+        width: auto;
+        text-align:  center;
+    }

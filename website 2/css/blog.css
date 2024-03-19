@@ -1,0 +1,191 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+body{
+	font-size: 20px;
+	overflow-x: hidden;
+
+}
+.active{
+	border: outset 5px white;
+	background-color: white;
+	color: black;
+}
+
+header{
+	
+	background-image: url('../images/blog.jpg');
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+
+
+}
+
+
+.row{
+		max-width: 1180px;
+		margin: 0 auto;
+
+}
+
+.main-nav{
+	float: right;
+	margin-top: 60px;
+	color: black;
+
+
+}
+.inside{
+	background-color: black;
+	font-size: 25px;
+	position: absolute;
+	border: 2px solid white;
+	top: 20%;
+}
+
+.main-nav li{
+
+	display: inline-block;
+	list-style: none;
+	margin-left: 40px;
+
+
+}
+.top{
+	position: absolute;
+	color: white;
+	top: 13%;
+	left: 34%;
+	background-color: black;
+}
+.main-nav li a{
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 100%;
+	font-weight: 100px;
+	font-family: 'Akronim', cursive;
+
+}
+
+.main-nav li a:hover{
+	color: black;
+	cursor: pointer;
+	border: outset 5px white;
+	background-color: white;
+	
+
+}
+
+.main-content-header{
+	width: 1180px;
+	position: absolute;
+	top: 25%;
+	left: 65%;
+	transform: translate(-50%,-50%);
+	font-family: arial;
+
+}
+
+h1{
+	color: white;
+	font-size: 240%;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	padding-top: 0px;
+}
+
+
+.home{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-family: "Georgian";
+	padding-right: 20%;
+	padding-bottom: 25%;
+
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+
+}
+
+
+
+
+
+
+
+/*---------foooter----------*/
+
+
+footer{
+	width:100%;
+	background-color: black;
+	padding:2%;
+	height: 10%;
+}
+.fot{
+	float: left;
+	margin-top:5px;
+
+
+}
+p {
+  color: white;
+  font-family: 'Akronim', cursive;
+  }
+
+.fot li{
+	margin-top:1px;
+	display: inline-block;
+	list-style: none;
+	margin-left: 100px;
+
+}
+
+footer nav div ul li{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 100%;
+	font-weight: 100px;
+	font-family: 'Akronim', cursive;
+
+}
+.center{
+	text-align: center;
+}
+
+.facebook{
+	height: 40px;
+	width: auto;
+	text-align: center;
+
+}
+
+.instagram{
+	height: 40px;
+	width: auto;
+	text-align:  center;
+}

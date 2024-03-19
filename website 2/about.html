@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Us</title>
+	<link rel="stylesheet" type="text/css" href="css/aboutus.css">
+</head>
+<body>
+	<style>
+		.form {
+        background-color:darkcyan;
+        text-align: center;
+        left: 10%;
+        border-radius: 8px;
+        color: #FFF2F2;
+        top: 40%;
+        position: absolute;
+        }
+        .bot{
+        color: black;
+        position: absolute;
+        top: 135%;
+        left: 90%;
+        width: 3%;
+        height: 3%;
+        border-radius: 20px;
+        background-color: aqua;
+        }
+	</style>
+	<header>
+		<nav>
+			<div class="logo">
+				<a href="home.html"><img src=></a>
+			</div>
+			<div class="row clearfix">
+				<ul class="main-nav">
+					<li><a href="home.html">Home</a></li>
+					<li><a href="research.html">Research</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html" class="active">About us</a></li>
+
+				</ul>
+			</div>
+		</nav>
+		</header>
+
+		<div class="form">
+			<!-- Feedback Form with validation on form submission -->
+			<form id="feedbackForm" onsubmit="return validateForm()">
+				<br>
+				<!-- Heading for the feedback section -->
+				<h2>Give your Feedback</h2><br>
+				
+				<table>
+					<!-- Table rows for different input fields -->
+					<tr>
+						<td><label>Name: </label></td>
+						<td><input type="text" id="nameInput"></td>
+					</tr>
+					<tr>
+						<td><label>Address: </label></td>
+						<td><input type="text" id="addressInput"></td>
+					</tr>
+					<tr>
+						<td><label>Email: </label></td>
+						<td><input type="email" id="emailInput"></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<!-- Textarea for leaving feedback messages -->
+							<textarea rows="10" cols="50" placeholder="Leave your message" id="messageInput"></textarea>
+						</td>
+					</tr>
+				</table>
+				
+				<br>
+				<!-- Button to submit the feedback form -->
+				<button type="submit" onclick="popup()">Send</button><br><br>
+				<!-- Social media links for additional contact -->
+				<a href="https://www.instagram.com/"><i class="fa fa-instagram" style="color: black;"></i></a>
+				<a href="https://www.facebook.com/"><i class="fa fa-facebook" style="color: black;"></i></a><br>
+			</form>
+		</div>
+
+	<div class="about-para">
+		<p style="background-color: black; font-size: 22px;">My journey as a front-end developer began with a genuine interest in user experience and design. Over the years, I have cultivated a keen eye for detail and a deep understanding of the intricacies involved in creating responsive and engaging web applications. My proficiency extends across a spectrum of front-end technologies, including HTML, CSS, and JavaScript, as well as popular frameworks such as React and Vue.js.
+
+			In my professional endeavors, I have had the opportunity to collaborate with cross-functional teams, translating design concepts into code and ensuring a smooth user experience across various devices and platforms. I take pride in my ability to balance aesthetic appeal with performance optimization, striving to deliver web applications that not only look impressive but also load efficiently.</p>
+		<img src="/images/myself.jpg" class="myself" alt="">	
+		</div>
+		
+	<footer id= "main-footer">
+		<nav>
+			<div class="row clearfix">
+				
+                <p style="text-align: center; font-size: 15px">Call: 9825125287 || Email: printernepal@gmail.com</p>
+                <p style="text-align: center; font-size: 15px;">&copy; Copyright 2024 || created and Owned by Printer Nepal</p>	
+            <div class="center">
+                <a><img src = "images/facebook.png" class="facebook"></a>
+                            <a><img src="images/instagram.png" class="instagram"></a>
+	</div>
+		</div>
+		</nav>
+	</footer>
+<script src="/js/all.js"></script>
+</body>
+</html>

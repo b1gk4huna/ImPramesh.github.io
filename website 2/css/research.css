@@ -1,0 +1,438 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+header{
+	font-size: 20px;
+	overflow-x: hidden;
+
+}
+.active{
+	border: outset 5px white;
+	background-color: white;
+}
+
+body{
+	
+	background-image: url('../images/printer-home.jpg');
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	
+	clear: both;
+
+
+}
+
+
+.row{
+		max-width: 1180px;
+		margin:  auto;
+
+}
+
+.main-nav{
+	float: right;
+	margin-top: 60px;
+
+
+}
+
+.main-nav li{
+
+	display: inline-block;
+	list-style: none;
+	margin-left: 40px;
+
+
+}
+
+.main-nav li a{
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 100%;
+	font-weight: 100px;
+	font-family: 'Akronim', cursive;
+
+}
+
+.main-nav li a:hover{
+	color: black;
+	cursor: pointer;
+	border: outset 5px white;
+	background-color: white;
+	
+
+}
+
+.main-content-header{
+	width: 1180px;
+	position: absolute;
+	top: 25%;
+	left: 65%;
+	transform: translate(-50%,-50%);
+	font-family: arial;
+
+}
+
+h1{
+	color: white;
+	font-size: 240%;
+	word-spacing: 5px;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: lighter;
+
+}
+
+.home{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-family: "Georgian";
+	padding-right: 20%;
+	padding-bottom: 25%;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+
+}
+
+
+
+
+
+
+
+
+/*---------foooter----------*/
+
+
+footer{
+	position: absolute;
+	top: 250%;
+	width:100%;
+	background-color: black;
+	padding:2%;
+	height: 20%;
+}
+.fot{
+	float: left;
+	margin-top:5px;
+
+
+}
+p {
+  color: white;
+  font-family: 'Akronim', cursive;
+  }
+
+.fot li{
+	margin-top:1px;
+	display: inline-block;
+	list-style: none;
+	margin-left: 100px;
+
+}
+
+footer nav div ul li{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 100%;
+	font-weight: 100px;
+	font-family: 'Akronim', cursive;
+
+}
+.center{
+	text-align: center;
+}
+
+.facebook{
+	height: 40px;
+	width: auto;
+	text-align: center;
+	
+
+
+}
+
+.instagram{
+	height: 40px;
+	width: auto;
+	text-align: center;
+}
+.res{
+	position: absolute;
+	background-color: white;
+	color: black;
+	width: 80%;
+	text-align: center;
+	left: 10%;
+}
+.bor-he{
+	position: absolute;
+	border: 2px solid white;
+	top: 20%;
+	left: 10%;
+	width: 80%;
+	height: 23%;
+}
+.bor-he .ress{
+	position: absolute;
+	color: white;
+	font-size: 29px;
+}
+.bor-he .ss{
+	position: absolute;
+	width: 40%;
+	height: 20%;
+	left: 15%;
+}
+.bor-he .line{
+	position: absolute;
+	border: 2px solid white;
+	width: 100%;
+	top: 30%;
+}
+.bor-he .ref{
+	position: absolute;
+	color: white;
+	top: 35%;
+}
+.bor-he .ss2{
+	position: absolute;
+	width: 30%;
+	height: 10%;
+	top: 35%;
+	left: 20%;
+}
+.bor-he .para{
+	position: absolute;
+	top: 50%;
+	font-size: 24px;
+	left: 10%;
+}
+.fot{
+	position: absolute;
+	background-color: white;
+	color: black;
+	width: 80%;
+	text-align: center;
+	left: 10%;
+	top: 48%;
+}
+.bor-he2{
+	position: absolute;
+	border: 2px solid white;
+	top: 55%;
+	left: 10%;
+	width: 80%;
+	height: 30%;
+}
+.bor-he2 .ress{
+	position: absolute;
+	color: white;
+	font-size: 29px;
+}
+.bor-he2 .ss{
+	position: absolute;
+	width: 40%;
+	height: 26%;
+	left: 15%;
+}
+.bor-he2 .line{
+	position: absolute;
+	border: 2px solid white;
+	width: 100%;
+	top: 30%;
+}
+.bor-he2 .ref{
+	position: absolute;
+	color: white;
+	top: 35%;
+}
+.bor-he2 .ss2{
+	position: absolute;
+	width: 30%;
+	height: 20%;
+	top: 35%;
+	left: 20%;
+}
+.bor-he2 .para{
+	position: absolute;
+	top: 58%;
+	font-size: 24px;
+	left: 10%;
+}
+.pro{
+	position: absolute;
+	background-color: white;
+	color: black;
+	width: 80%;
+	text-align: center;
+	left: 10%;
+	top: 88%;	
+}
+.bor-he3{
+	position: absolute;
+	border: 2px solid white;
+	top: 98%;
+	left: 10%;
+	width: 80%;
+	height: 40%;
+}
+.bor-he3 .ress{
+	position: absolute;
+	color: white;
+	font-size: 29px;
+}
+.bor-he3 .ss{
+	position: absolute;
+	width: 40%;
+	height: 26%;
+	left: 15%;
+}
+.bor-he3 .line{
+	position: absolute;
+	border: 2px solid white;
+	width: 100%;
+	top: 30%;
+}
+.bor-he3 .ref{
+	position: absolute;
+	color: white;
+	top: 35%;
+}
+.bor-he3 .ss2{
+	position: absolute;
+	width: 30%;
+	height: 20%;
+	top: 35%;
+	left: 20%;
+}
+.bor-he3 .para{
+	position: absolute;
+	top: 58%;
+	font-size: 24px;
+	left: 10%;
+}
+.blo{
+	position: absolute;
+	background-color: white;
+	color: black;
+	width: 80%;
+	text-align: center;
+	left: 10%;
+	top: 141%;	
+}
+.bor-he4{
+	position: absolute;
+	border: 2px solid white;
+	top: 148%;
+	left: 10%;
+	width: 80%;
+	height: 40%;
+}
+.bor-he4 .ress{
+	position: absolute;
+	color: white;
+	font-size: 29px;
+}
+.bor-he4 .ss{
+	position: absolute;
+	width: 40%;
+	height: 26%;
+	left: 15%;
+}
+.bor-he4 .line{
+	position: absolute;
+	border: 2px solid white;
+	width: 100%;
+	top: 30%;
+}
+.bor-he4 .ref{
+	position: absolute;
+	color: white;
+	top: 35%;
+}
+.bor-he4 .ss2{
+	position: absolute;
+	width: 30%;
+	height: 40%;
+	top: 35%;
+	left: 20%;
+}
+.bor-he4 .para{
+	position: absolute;
+	top: 78%;
+	font-size: 24px;
+	left: 10%;
+}
+.abo{
+	position: absolute;
+	background-color: white;
+	color: black;
+	width: 80%;
+	text-align: center;
+	left: 10%;
+	top: 191%;	
+}
+.bor-he5{
+	position: absolute;
+	border: 2px solid white;
+	top: 200%;
+	left: 10%;
+	width: 80%;
+	height: 40%;
+}
+.bor-he5 .ress{
+	position: absolute;
+	color: white;
+	font-size: 29px;
+}
+.bor-he5 .ss{
+	position: absolute;
+	width: 40%;
+	height: 28%;
+	left: 15%;
+}
+.bor-he5 .line{
+	position: absolute;
+	border: 2px solid white;
+	width: 100%;
+	top: 30%;
+}
+.bor-he5 .ref{
+	position: absolute;
+	color: white;
+	top: 35%;
+}
+.bor-he5 .ss2{
+	position: absolute;
+	width: 30%;
+	height: 40%;
+	top: 35%;
+	left: 20%;
+}
+.bor-he5 .para{
+	position: absolute;
+	top: 78%;
+	font-size: 24px;
+	left: 10%;
+}
